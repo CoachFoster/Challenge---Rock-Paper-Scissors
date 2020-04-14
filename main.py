@@ -44,7 +44,7 @@ done = False
 player_name = input(pcgreen + "Enter player name: " + pcend)
 print()
 
-# function to choices
+# function to print choices
 def print_choices():
     print("\nComputer chose:\t", comp_choice)
     print(player_name + " chose:\t", user_choice)
